@@ -158,6 +158,10 @@ Child {
 ## Scrollbars
 
 ```CSS
+html {
+  scroll-behavior: smooth;
+}
+
 /* the scrollbar. */
 ::-webkit-scrollbar {
   width: ;
@@ -185,6 +189,17 @@ Child {
 
 /*the draggable resizing handle that appears at the bottom corner of some elements.*/
 ::-webkit-resizer {
+}
+```
+### Scroll Snap
+```CSS
+Parent {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+Child {
+  scroll-snap-align: start;
 }
 ```
 
