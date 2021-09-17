@@ -60,3 +60,82 @@
     
 </form>
 ```
+
+## Computer Code
+
+```HTML
+<pre> <!--Preformatted Text-->
+    <code> <!--Code Snippet-->
+
+    </code>
+</pre>
+<kbd></kbd> <!--Keyboard Input-->
+<samp></samp> <!--sample output-->
+<var></var> <!--Variables-->
+```
+
+## Tables
+
+```HTML
+<table class="table table-1">
+    <caption class="table1-caption"></caption>
+    <colgroup>
+        <col span="">
+    </colgroup>
+    <tr class="first-row">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th class="row-head"></th>
+        <td></td>
+        <td colspan="" rowspan=""></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th class="row-head"></th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th class="row-head"></th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th class="row-head"></th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+```
+
+## Site Header and Navbar
+
+```HTML
+<header>
+    <figure id="logo">
+        <img src="" alt="" class="logo_icon">
+        <figcaption class="logo_caption"></figcaption>
+    </figure>
+    <nav id="navbar">
+        <ul>
+            <li class="nav_link1"> <i alt="" class="icon"></i>  </li>
+            <li class="nav_link2"></li>
+            <li class="nav_link3"></li>
+            <li class="nav_link4"></li>
+            <li class="nav_link5"></li>
+        </ul>
+    </nav>
+</header>
+```
