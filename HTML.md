@@ -1,4 +1,24 @@
 # HTML Snippets
+
+## Metadata and Head Element
+
+```HTML
+<head>
+    <title>Document</title>
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="author" content="John Doe">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="" target="">
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon is a file containing one or more small icons, associated with a particular website or web page. -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style></style>
+</head>
+```
+
 ## Web Forms
 
 ```HTML
