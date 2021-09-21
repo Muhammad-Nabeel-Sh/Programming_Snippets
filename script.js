@@ -22,4 +22,9 @@ print();
 document.write();
 alert();
 
+/Declaring Variables/
+var identifierName = 5;
+
+
+
 
