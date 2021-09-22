@@ -1,4 +1,4 @@
-/DOM/
+//DOM
 document.getElementById("")
 document.getElementsByClassName("")
 document.getElementsByTagName("")
@@ -15,14 +15,14 @@ document.querySelector("").setAttribute
 document.querySelector("").removeAttribute
 document.querySelector("").toggleAttribute
 
-/JS Output/
-document.querySelector("").innerHTML = ;
+//JS Output
+document.querySelector("").innerHTML ;
 console.log();
 print();
 document.write();
 alert();
 
-/Declaring Variables/
+//Declaring Variables
 var identifierName = 5;
 
 
