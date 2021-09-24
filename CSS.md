@@ -117,6 +117,12 @@ element {
   border-spacing: ;
   border-image: ;
 
+  outline: outline-width outline-style outline-color|initial|inherit;
+  outline-color: invert|color|initial|inherit;
+  outline-offset: length|initial|inherit;
+  outline-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;
+  outline-width: medium|thin|thick|length|initial|inherit;
+
   margin-top: ;
   margin-bottom: ;
   margin-left: ;
@@ -296,15 +302,15 @@ caption {
 ```CSS
 element{
   font: ;
-  font-family: ;
-  font-size: ;
-  font-weight: ;
-  font-style: ;
-  font-variant: ;
+  font-family: family-name|generic-family|initial|inherit;
+  font-size:medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit;
+  font-weight: normal|bold|bolder|lighter|number|initial|inherit;
+  font-style: normal|italic|oblique|initial|inherit;
+  font-variant: normal|small-caps|initial|inherit;
   font-display: ;
-  font-stretch: ;
-  font-kerning: ;
-  font-synthesis: ; */
+  font-stretch: ultra-condensed|extra-condensed|condensed|semi-condensed|normal|semi-expanded|expanded|extra-expanded|ultra-expanded|initial|inherit;
+  font-kerning: auto|normal|none;
+  font-synthesis: ;
   
   text-align: left|right|center|justify|initial|inherit ;
   text-decoration: text-decoration-line text-decoration-color text-decoration-style|initial|inherit ;
