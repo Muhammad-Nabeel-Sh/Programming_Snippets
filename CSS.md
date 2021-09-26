@@ -303,7 +303,7 @@ caption {
 element{
   font: ;
   font-family: family-name|generic-family|initial|inherit;
-  font-size:medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit;
+  font-size: medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit;
   font-weight: normal|bold|bolder|lighter|number|initial|inherit;
   font-style: normal|italic|oblique|initial|inherit;
   font-variant: normal|small-caps|initial|inherit;
@@ -312,7 +312,6 @@ element{
   font-kerning: auto|normal|none;
   font-synthesis: ;
   
-  text-align: left|right|center|justify|initial|inherit ;
   text-decoration: text-decoration-line text-decoration-color text-decoration-style|initial|inherit ;
   text-decoration-color: ;
   text-decoration-skip: ;
@@ -320,18 +319,38 @@ element{
   text-decoration-style: solid|double|dotted|dashed|wavy|initial|inherit ;
   text-decoration-thickness: ;
   text-decoration-skip-ink: ;
+  text-underline-offset: ;
+  text-underline-position: ;
+
   text-transform: none|capitalize|uppercase|lowercase|initial|inherit ;
   text-overflow: ;
-  text-indent: ;
   text-orientation: ;
   text-emphasis: ;
   text-emphasis-color: ;
   text-emphasis-position: ;
   text-emphasis-style: ;
-  text-underline-offset: ;
-  text-underline-position: ;
-  text-shadow: ;
+
+  text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;
   text-anchor: ;
+
+  direction: ltr|rtl|initial|inherit;
+  writing-mode: horizontal-tb|vertical-rl|vertical-lr;
+  unicode-bidi: normal|embed|isolate|bidi-override|isolate-override|plaintext|inherit|initial|revert|unset;
+
+  text-align: left|right|center|justify|initial|inherit ;
+  text-align-last: auto|left|right|center|justify|start|end|initial|inherit;
+  text-indent: ;
+  vertical-align: baseline|length|sub|super|top|text-top|middle|bottom|text-bottom|initial|inherit;
+  hyphens: none|manual|auto|inherit|initial|revert|unset;
+  hanging-punctuation: none|first|last|force-end|allow-end|inherit|initial|revert|unset;
+
+  white-space: normal|nowrap|pre|pre-line|pre-wrap|initial|inherit;
+  word-wrap: normal|break-word|initial|inherit;
+  word-break: normal|break-all|keep-all|break-word|initial|inherit;
+  word-spacing: normal|length|initial|inherit;
+  letter-spacing: normal|length|initial|inherit;
+  line-height: normal|number|length|initial|inherit;
+  line-break: auto|loose|normal|strict|anywhere|inherit|initial|revert|unset;
 }
 ```
 
