@@ -10,6 +10,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 ```
 
+## Semantic UI
+
+```HTML
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+```
+
 ## highlight.js
 
 ```HTML
@@ -81,6 +89,14 @@ highlightCode();
 </script>
 ```
 
+### mhchem extension for KaTeX and MathJax
+
+```HTML
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/contrib/mhchem.min.js" integrity="sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M"  crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2/mhchem.js" integrity="sha512-WLgE7nfxMwd3e2eOruLZc7tmTigu94NbG4VFSVcLvic7f5tEJE7cX8J/14PYKGdmlr8KGoc8tUdVGlFJmoIYQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+```
+
 ## Animate on Scroll Library
 
 ```HTML
@@ -102,6 +118,12 @@ AOS.init();
 
 ```HTML
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js" integrity="sha512-b3xr4frvDIeyC3gqR1/iOi6T+m3pLlQyXNuvn5FiRrrKiMUJK3du2QqZbCywH6JxS5EOfW0DY0M6WwdXFbCBLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+```
+
+## echarts
+
+```HTML
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.2.1/echarts.min.js" integrity="sha512-17GGcT5BjSbaXG+4Fk3Z1HS1ATXH5oEH060GS3WvSEqGGpkSbRV/amkIWpqOJOIwkBW13QMOBblj8DXnlN7bEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
 ## Anime.js
