@@ -50,6 +50,23 @@
 | upper( )        | Converts a string into upper case                                                             |
 | zfill( )        | Fills the string with a specified number of 0 values at the beginning                         |
 
+## Int and Float Methods
+
+| Method     | Description                                                                  |
+| :--------- | :--------------------------------------------------------------------------- |
+| \_\_abs\_\_(self, /)  | Absolute value                                       |
+| \_\_bool\_\_(self, /)    | Returns true if != 0                                                   |
+| \_\_int\_\_(self, /)   | Returns                       |
+| \_\_float\_\_(self, /)  | Returns  |
+| \_\_add\_\_(self, value, /)  | Return self+value.                                       |
+| \_\_sub\_\_(self, value, /)   | Return self-value. |
+| \_\_mul\_\_(self, value, /)  | Return self\*value. |
+| \_\_floordiv\_\_(self, value, /)     | Return self//value. |
+| \_\_mod\_\_(self, value, /)  | Return self%value |
+| \_\_divmod\_\_(self, value, /) | Returns a pair of numbers (a tuple) consisting of their quotient and remainder.  |
+| \_\_pow\_\_(self, value, mod=None, /)    | Three parameters base, exponent and modulus(optional)  |
+| \_\_round\_\_(...)    |  Return the Integral closest to x, rounding half toward even.  |
+
 ## List Methods  
 
 | Method     | Description                                                                  |
@@ -65,4 +82,3 @@
 | remove( )  | Removes the first item with the specified value                              |
 | reverse( ) | Reverses the order of the list                                               |
 | sort( )    | Sorts the list                                                               |
-
