@@ -58,14 +58,35 @@
 | \_\_bool\_\_(self, /)    | Returns true if != 0                                                   |
 | \_\_int\_\_(self, /)   | Returns                       |
 | \_\_float\_\_(self, /)  | Returns  |
+| is\_integer(self, /) | Return True if the float is an integer. |
 | \_\_add\_\_(self, value, /)  | Return self+value.                                       |
 | \_\_sub\_\_(self, value, /)   | Return self-value. |
 | \_\_mul\_\_(self, value, /)  | Return self\*value. |
+| \_\_truediv\_\_(self, value, /)  | Return self/value. |
 | \_\_floordiv\_\_(self, value, /)     | Return self//value. |
 | \_\_mod\_\_(self, value, /)  | Return self%value |
 | \_\_divmod\_\_(self, value, /) | Returns a pair of numbers (a tuple) consisting of their quotient and remainder.  |
 | \_\_pow\_\_(self, value, mod=None, /)    | Three parameters base, exponent and modulus(optional)  |
-| \_\_round\_\_(...)    |  Return the Integral closest to x, rounding half toward even.  |
+| \_\_round\_\_(self, ndigits=None, /)    |  Return the Integral closest to x, rounding half toward even.  |
+| \_\_trunc\_\_(self, /)    |  Return the Integral closest to x between 0 and x.  |
+| \_\_neg\_\_(self, /) | Returns -self |
+| \_\_pos\_\_(self, /) | Returns +self |
+| as\_integer\_ratio(self, /) | Returns a tuple of two integers, whose ratio is equal to the Fraction and with a positive denominator. |
+| \_\_ceil\_\_(self, /) | Return the ceiling as an Integral. |
+| \_\_floor\_\_(self, /) | Return the floor as an Integral. |
+| \_\_eq\_\_(self, /) | Return self=value |
+| \_\_gt\_\_(self, /) | Return self>value |
+| \_\_lt\_\_(self, /) | Return self<value |
+| \_\_ge\_\_(self, /) | Return self>=value |
+| \_\_le\_\_(self, /) | Return self<=value |
+| \_\_ne\_\_(self, /) | Return self!=value |
+| \_\_eq\_\_(self, /) | Return self=value |
+| hex(self, /) | Return a hexadecimal representation of a floating-point number. |
+| bit\_length(self, /) | Number of bits necessary to represent self in binary. |
+| bit\_length(self, /) | Number of bits necessary to represent self in binary. |
+| to\_bytes(self, /, length, byteorder, \*, signed=False) | Return an array of bytes representing an integer. |
+| x.imag  x.real | real and imaginary parts of a complex number |
+| x.numerator  x.denominator | for an integer not a float |
 
 ## List Methods  
 
