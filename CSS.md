@@ -61,7 +61,17 @@ console.log(percentToHex(80)); // CC
 console.log(percentToHex(100)); // FF
 ```
 
-## Box Model
+## Layout and Box Model
+
+### Positioning
+
+- Static: positioned according to the normal flow of the document.
+- Absolute: The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. 
+- Fixed: positioned relative to the viewport.
+- Relative: positioned relative to its normal position. The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of `top`, `right`, `bottom`, and `left`. The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static.
+- Sticky: A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+- Z-index: specifies the stack order of an element
+
 
 ```CSS
 element {
@@ -70,8 +80,12 @@ element {
   bottom: ;
   right: ;
   left: ;
-  z-index: ;
+  z-index: ;}
+  ```
 
+
+```CSS
+element{
   padding-top: ;
   padding-bottom: ;
   padding-left: ;
