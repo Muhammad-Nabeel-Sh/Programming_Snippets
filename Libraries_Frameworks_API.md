@@ -131,3 +131,12 @@ AOS.init();
 ```HTML
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js" integrity="sha512-E378bwaeZf1nwXeJGIwTB58A5gPt5jFU3u6aTGja4ZdRFJeo/N/REKnBgNZOZlH6JdnOPO98vg2AnSGaNfCMFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
+
+## DiceBear
+
+[DiceBear](https://avatars.dicebear.com/) is an avatar library for designers and developers. You can choose between simple identicons and lovely designed characters.
+
+```HTML
+<img src="https://avatars.dicebear.com/api/:sprites/:seed.svg" alt="">
+```
+
