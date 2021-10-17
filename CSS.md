@@ -1,5 +1,75 @@
 # CSS Snippets
 
+## Selectors and Combinators
+
+```CSS
+* {}                      /* Universal Selector           */
+element {}                /* Type Selector                */
+.class {}                 /* Class Selector               */
+#id {}                    /* ID Selector                  */
+[attr] {}                 /* Attribute Selector           */
+element, element {}       /* Selector list                */
+element element {}        /* Descendant Selector          */
+element > element {}      /* Child Selector               */
+element + element {}      /* Adjacent Sibling Selector    */
+element ~ element {}      /* General Sibling Selector     */
+element element {}        /* Descendant Selector          */
+```
+## Pseudo-Classes
+
+```CSS
+:root {}
+
+:not(selector) {}
+
+element:first-child {}
+element:last-child {}
+element:only-child {}
+element:first-of-type {}
+element:last-of-type {}
+element:only-of-type {}
+
+element:nth-child(n) {}
+element:nth-last-child(n) {}
+element:nth-of-type(n) {}
+element:nth-last-of-type(n) {}
+
+element:empty {}
+
+element:lang(language) {}
+
+a:link {}
+a:visited {}
+a:hover {}
+a:active {}
+
+input:focus {}
+input:checked {}
+input:enabled {}
+input:disabled {}
+input:in-range {}
+input:out-of-range {}
+input:valid {}
+input:invalid {}
+input:optional {}
+input:required {}
+input:read-only {}
+input:read-write {}
+```
+
+## Pseudo-Elements
+
+```CSS
+element::first-line {}
+element::first-letter {}
+
+element::before {}
+element::after {}
+
+::marker {}
+::selection {}
+```
+
 ## Background Styles
 
 ```CSS
